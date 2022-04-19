@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100;200;300;500;700;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.h1 {
+    font-family:bebas neue;
+    font-size: 50px;
+    color: #2c3441;
+    text-align: center;
+    margin-top: 60px;
 }
 
 .pesquisa {
@@ -10,7 +20,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background: #2c3441;
-    height: 45px;
+    height: 40px;
     border-radius: 40px;
     padding: 0 10px;
 }
@@ -23,11 +33,13 @@
 
 .pesquisa:hover > .icon{
     background: #536179;
+   
 }
 
-.icon:hover {
-    transform: rotate(360deg);
-    scale:(0.8);
+.icon:hover{
+    transform: rotate(360deg) 
+scale(0.8);
+    
 
 }
 
