@@ -1,2 +1,7 @@
 # busca_responsiva
-Barra de busca que "abre e fecha". 
+hr
+
+Search Input - Barra que "abre e fecha".
+Código do @frontend_trend 
+
+
